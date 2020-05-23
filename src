@@ -147,7 +147,7 @@ while True:
         add_nitro(lowered_list)
     else:
         pass
-    target_wpm = random.randint(150, 175)
+    target_wpm = random.randint(150, 175) #change numbers inside to change speed of how fast the bot types for you
     deviation = 0
     get_time = get_sleep_time(target_wpm, deviation)
     for char in lowered_list:
