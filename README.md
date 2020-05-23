@@ -1,7 +1,7 @@
 # NitroTypeBot
 Nitrotype Bot that works!
 Steps to use the bot on the bottom:
-1. Download a python compiler. I used Idle. Download at https://www.python.org/downloads/
+1. Download a python compiler. I prefer Idle. Download at https://www.python.org/downloads/
 2. Go to cmd and download libraries bs4, pynput, and selenium.
 Type this in cmd:
   -pip install bs4
