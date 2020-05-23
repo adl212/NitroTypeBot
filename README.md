@@ -3,16 +3,15 @@ Nitrotype Bot that works!
 Steps to use the bot on the bottom:
 1. Download a python compiler. I prefer Idle. Download at https://www.python.org/downloads/
 2. Go to cmd and download libraries bs4, pynput, and selenium.
-Type this in cmd:
-  -pip install bs4
-  -pip install pynput
-  -pip install selenium 
+Type this in cmd: "pip install bs4"
+Then, "pip install pynput" 
+Finally, "pip install selenium" 
 Make sure you downloaded these libraries or else computer will break!
 3. Go copy and paste src code into compiler.
 4. Go to line 83 and 85 to put your usename and password into the places where it says
-  -#Put your usename here
-  and
-  -#Put your password here
+#Put your usename here
+and 
+#Put your password here
 5. Go to line 150 and change the numbers inside the randint() to whatever range of speeds you want to race! Do not take out the comma. 
 -----------------------------------------------------------------------------------------------------------------------------------
 IMPORTANT NOTES ABOUT THE BOT:
