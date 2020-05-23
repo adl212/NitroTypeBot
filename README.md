@@ -6,7 +6,7 @@ Steps to use the bot on the bottom:
 Type this in cmd: "pip install bs4"
 Then, "pip install pynput" 
 Finally, "pip install selenium" 
-Make sure you downloaded these libraries or else computer will break!
+Make sure you downloaded these libraries or else your computer will break!
 3. Go copy and paste src code into compiler.
 4. Go to line 83 and 85 to put your usename and password into the places where it says
 #Put your usename here
