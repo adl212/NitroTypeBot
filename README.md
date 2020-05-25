@@ -12,7 +12,7 @@ Make sure you downloaded these libraries or else your computer will break!
 ```#Put your usename here```
 and 
 ```#Put your password here```
-5. Go to line 150 and change the numbers inside the ```randint()``` to whatever range of speeds you want to race! Do not take out the comma. 
+5. Go to line 150 and change the numbers inside the ```randint()``` to whatever range of wpm you want to race! Do not take out the comma. 
 -----------------------------------------------------------------------------------------------------------------------------------
 IMPORTANT NOTES ABOUT THE BOT:
 Don't use your computer and just watch the bot race for you. If you try to control the mouse or controller, bot will crash. 
