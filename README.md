@@ -1,7 +1,7 @@
 # NitroTypeBot
-Nitrotype Bot that works!
+Nitrotype Bot that works and types for you so that you don't have to type on [Nitrotype](https://www.nitrotype.com)!
 Steps to use the bot here:
-1. Download a python compiler. I prefer Idle. Download at https://www.python.org/downloads/
+1. Download a python compiler. I prefer Idle. Download at [python.org](https://www.python.org/downloads)
 2. Go to cmd and download libraries bs4, pynput, and selenium.
 Type this in cmd: "pip install bs4"
 Then, "pip install pynput" 
