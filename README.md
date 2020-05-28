@@ -12,6 +12,7 @@ Make sure you downloaded these libraries or else your computer will break!
 ```#Put your usename here```
 and 
 ```#Put your password here```
+do not take away the ' ' in the ().
 5. Go to line 150 and change the numbers inside the ```randint()``` to whatever range of wpm you want to race! Do not take out the comma. 
 -----------------------------------------------------------------------------------------------------------------------------------
 IMPORTANT NOTES ABOUT THE BOT:
