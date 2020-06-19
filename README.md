@@ -23,4 +23,4 @@ Don't use your computer and just watch the bot race for you. If you try to contr
 By using this bot, you are taking responsibility on whatever effects on your Nitro Type account will happen by using the bot. 
 There is no way I can steal your account and I simply don't want to. 
 Does not work on online compilers! Must use python compilers that are downloaded!
-[![Run on Repl.it](https://repl.it/badge/github/reallyverytrash/NitroTypeBot)](https://repl.it/github/reallyverytrash/NitroTypeBot)
+
