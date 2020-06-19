@@ -1,5 +1,8 @@
 # NitroTypeBot
 Nitrotype Bot that works and types for you so that you don't have to type on [Nitrotype](https://www.nitrotype.com)!
+Features:
+1. A nitrotype bot to play nitrotype for you!
+2. A nitrotype account generator to use to type for you on nitrotype!
 Steps to use the bot here:
 1. Download a python compiler. I prefer Idle. Download at [python.org](https://www.python.org/downloads)
 2. Go to cmd and download libraries bs4, pynput, and selenium.
