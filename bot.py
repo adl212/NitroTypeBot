@@ -89,7 +89,7 @@ def signin():
     try:
         driver.find_element_by_xpath('//*[@id="root"]/div/header/div/div[2]/div[1]/a').click()
     except Exception:
-        driver.close()
+        driver.quit()
         driver = signin()
     return driver
 
@@ -117,7 +117,7 @@ while True:
             raw_text = soup.find('div', class_='dash-class')  # Find all terms on page
             return raw_text
         except Exception:
-            driver.close()
+            driver.quit()
             driver = signin()
 
 
@@ -131,7 +131,7 @@ while True:
             run_scraper = scrape_text()
             find_words = run_scraper.find_all('span', class_='dash-sentence')
         except Exception:
-            driver.close()
+            driver.quit()
             driver = signin()
             continue
 
@@ -169,5 +169,5 @@ while True:
     try:
         driver.find_element_by_xpath('//*[@id="raceContainer"]/div[1]/div[2]/div[4]/div/div[2]/button').click()
     except Exception:
-        driver.close()
+        driver.quit()
         driver = signin()
