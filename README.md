@@ -17,6 +17,11 @@ and
 ```#Put your password here```
 do not take away the ' ' in the ().
 5. Go to line 150 and change the numbers inside the ```randint()``` to whatever range of wpm you want to race! Do not take out the comma. 
+
+# Lowerspeed
+
+If you don't want to use the bot, use this program! Replace speed's value win the speed with ' around it. Replace username's value with username with ' around it. Replace password's value with password with ' around it. This will lower your speed so that you can how much shorter races, causing you to have way more races! Also, you can keep selling the car given to you to get free money.
+Just run the [lowerspeed code](https://github.com/reallyverytrash/NitroTypeBot/blob/master/lowerspeed.py)!
 -----------------------------------------------------------------------------------------------------------------------------------
 IMPORTANT NOTES ABOUT THE BOT:
 By using this bot, you are taking responsibility on whatever effects on your Nitro Type account will happen by using the bot. 
