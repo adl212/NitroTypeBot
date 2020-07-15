@@ -22,7 +22,7 @@ If you don't want to use the bot, use this program! Replace speed's value win th
 Just run the [lowerspeed code](https://github.com/reallyverytrash/NitroTypeBot/blob/master/lowerspeed.py)!
 
 -------------------------------------------------------------------------------------------------
-IMPORTANT NOTES ABOUT THE BOT:
+**IMPORTANT NOTES ABOUT THE BOT**:
 By using these programs, you are taking responsibility on whatever effects on your Nitro Type account will happen by using the program. 
 There is no way I can steal your account and I simply don't want to. 
 Does not work on online compilers! Must use python compilers that are downloaded!
