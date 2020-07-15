@@ -23,7 +23,7 @@ Just run the [lowerspeed code](https://github.com/reallyverytrash/NitroTypeBot/b
 
 -------------------------------------------------------------------------------------------------
 IMPORTANT NOTES ABOUT THE BOT:
-By using this bot, you are taking responsibility on whatever effects on your Nitro Type account will happen by using the bot. 
+By using these programs, you are taking responsibility on whatever effects on your Nitro Type account will happen by using the program. 
 There is no way I can steal your account and I simply don't want to. 
 Does not work on online compilers! Must use python compilers that are downloaded!
 
