@@ -23,27 +23,33 @@
     
 ***************************************************************************************/
 
-(async function(){
-  var baseUsername = prompt('Enter base username:');
-  var password = prompt('Enter password:');
-  var amount = prompt('Enter the amount of accounts:');
+(async () => {
+    var baseUsername = prompt('Enter base username:'), password = prompt('Enter password:'), amount = prompt('Enter the number of accounts:');
 
-  var i;
-  for (i = 0; i < parseInt(amount); i++) {
-    await fetch("https://www.nitrotype.com/api/register", {
-      "credentials": "include",
-      "headers": {
-        "Accept": "application/json, text/plain, */*",
-        "Accept-Language": "en-US,en;q=0.5",
-        "Prefer": "safe",
-        "Content-Type": "application/x-www-form-urlencoded"
-      },
-    "referrer": "https://www.nitrotype.com/signup",
-    "body": "acceptPolicy=true&email=&password=" + password + "&receiveContact=&username=" + baseUsername + i,
-    "method": "POST",
-    "mode": "cors"
-    });
-  };
+    post = async (url, data) => {
+        var response = await fetch(url, {
+        method: 'POST', 
+        mode: 'cors', 
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: data 
+        });
+        return response.json(); 
+    }
   
-  alert('Generating ' + amount + ' accounts... Please wait a couple seconds before leaving the current page.');
+    alert(`Attempting to generate ${amount} accounts... Please wait for the next alert.`)
+
+    for (var i = 0; i < parseInt(amount); i++) {
+        post('https://www.nitrotype.com/api/register', `acceptPolicy=true&email=&password=${password}&receiveContact=&username=${baseUsername+i}`)
+        .then(response => {
+            console.log(response)
+        })
+        .catch((error) => {
+            console.error(error);
+        });
+    };
+
+  alert('Operation complete. Check the console for individual HTTP responses.')
 })();
+
